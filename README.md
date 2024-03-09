@@ -31,10 +31,7 @@ When it's done you have to activate [google artifact](https://console.cloud.goog
 Check if everything is up to set with your installation `gcloud components update`.
 
 You have to create a new repository on google artifact for your images. We do it by running this following command: 
-`gcloud artifacts repositories create $REPOSITORYNAME \
-    --repository-format=docker \
-    --location=$LOCATION \
-    --description="Repository for storing api images"`.
+`gcloud artifacts repositories create $REPOSITORYNAME --repository-format=docker --location=$GCP_REGION --description="Repository for storing api images"`.
 
 If the command runs without error you can see your repository [here](https://console.cloud.google.com/artifacts?).
 
