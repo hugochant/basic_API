@@ -3,7 +3,7 @@ This repository explain the basics to build your first api.
 
 You can use the structure of the repository.
 
-The API is build with  [Fastapi](https://fastapi.tiangolo.com/fr/, "Fastapi") and [Uvicorn](https://www.uvicorn.org/, "Uvicorn").
+The API is build with  [Fastapi](https://fastapi.tiangolo.com/fr/ "Fastapi") and [Uvicorn](https://www.uvicorn.org/ "Uvicorn").
 
 To start run `pip install -r requirements.txt` and install [docker desktop](https://docs.docker.com/desktop/).
 
