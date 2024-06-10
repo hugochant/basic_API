@@ -12,7 +12,7 @@ To start run `pip install -r requirements.txt` and install [docker desktop](http
 
 To check if everything is good run the `uvicorn app_folder.app_file:app --host 0.0.0.0` in your terminal.
 
-If the prévious step is good you can build your docker in local with the following command `docker build -t name_of_your_api .`.
+If the previous step is good you can build your docker in local with the following command `docker build -t name_of_your_api .`.
 
 To run it you have to run the command `docker run -p 8080:8000 name_of_your_api`.
 
